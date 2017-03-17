@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA020571E7BE72900FC6E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA020561E7BE72900FC6E81 /* AppDelegate.swift */; };
+		9BA020591E7BE72900FC6E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA020581E7BE72900FC6E81 /* ViewController.swift */; };
+		9BA0205C1E7BE72900FC6E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA0205A1E7BE72900FC6E81 /* Main.storyboard */; };
+		9BA0205F1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0205D1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodeld */; };
+		9BA020611E7BE72900FC6E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA020601E7BE72900FC6E81 /* Assets.xcassets */; };
+		9BA020641E7BE72900FC6E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA020621E7BE72900FC6E81 /* LaunchScreen.storyboard */; };
+		9BA0206F1E7BE72900FC6E81 /* Alphabet_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0206E1E7BE72900FC6E81 /* Alphabet_ClockTests.swift */; };
+		9BA0207A1E7BE72900FC6E81 /* Alphabet_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA020791E7BE72900FC6E81 /* Alphabet_ClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BA0206B1E7BE72900FC6E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA0204B1E7BE72900FC6E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA020521E7BE72900FC6E81;
+			remoteInfo = "Alphabet Clock";
+		};
+		9BA020761E7BE72900FC6E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA0204B1E7BE72900FC6E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA020521E7BE72900FC6E81;
+			remoteInfo = "Alphabet Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BA020531E7BE72900FC6E81 /* Alphabet Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alphabet Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA020561E7BE72900FC6E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA020581E7BE72900FC6E81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA0205B1E7BE72900FC6E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA0205E1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alphabet_Clock.xcdatamodel; sourceTree = "<group>"; };
+		9BA020601E7BE72900FC6E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA020631E7BE72900FC6E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA020651E7BE72900FC6E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA0206A1E7BE72900FC6E81 /* Alphabet ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alphabet ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA0206E1E7BE72900FC6E81 /* Alphabet_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabet_ClockTests.swift; sourceTree = "<group>"; };
+		9BA020701E7BE72900FC6E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA020751E7BE72900FC6E81 /* Alphabet ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alphabet ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA020791E7BE72900FC6E81 /* Alphabet_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabet_ClockUITests.swift; sourceTree = "<group>"; };
+		9BA0207B1E7BE72900FC6E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA020501E7BE72900FC6E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA020671E7BE72900FC6E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA020721E7BE72900FC6E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA0204A1E7BE72900FC6E81 = {
+			isa = PBXGroup;
+			children = (
+				9BA020551E7BE72900FC6E81 /* Alphabet Clock */,
+				9BA0206D1E7BE72900FC6E81 /* Alphabet ClockTests */,
+				9BA020781E7BE72900FC6E81 /* Alphabet ClockUITests */,
+				9BA020541E7BE72900FC6E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA020541E7BE72900FC6E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA020531E7BE72900FC6E81 /* Alphabet Clock.app */,
+				9BA0206A1E7BE72900FC6E81 /* Alphabet ClockTests.xctest */,
+				9BA020751E7BE72900FC6E81 /* Alphabet ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA020551E7BE72900FC6E81 /* Alphabet Clock */ = {
+			isa = PBXGroup;
+			children = (
+				9BA020561E7BE72900FC6E81 /* AppDelegate.swift */,
+				9BA020581E7BE72900FC6E81 /* ViewController.swift */,
+				9BA0205A1E7BE72900FC6E81 /* Main.storyboard */,
+				9BA020601E7BE72900FC6E81 /* Assets.xcassets */,
+				9BA020621E7BE72900FC6E81 /* LaunchScreen.storyboard */,
+				9BA020651E7BE72900FC6E81 /* Info.plist */,
+				9BA0205D1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodeld */,
+			);
+			path = "Alphabet Clock";
+			sourceTree = "<group>";
+		};
+		9BA0206D1E7BE72900FC6E81 /* Alphabet ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA0206E1E7BE72900FC6E81 /* Alphabet_ClockTests.swift */,
+				9BA020701E7BE72900FC6E81 /* Info.plist */,
+			);
+			path = "Alphabet ClockTests";
+			sourceTree = "<group>";
+		};
+		9BA020781E7BE72900FC6E81 /* Alphabet ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA020791E7BE72900FC6E81 /* Alphabet_ClockUITests.swift */,
+				9BA0207B1E7BE72900FC6E81 /* Info.plist */,
+			);
+			path = "Alphabet ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA020521E7BE72900FC6E81 /* Alphabet Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA0207E1E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet Clock" */;
+			buildPhases = (
+				9BA0204F1E7BE72900FC6E81 /* Sources */,
+				9BA020501E7BE72900FC6E81 /* Frameworks */,
+				9BA020511E7BE72900FC6E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alphabet Clock";
+			productName = "Alphabet Clock";
+			productReference = 9BA020531E7BE72900FC6E81 /* Alphabet Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA020691E7BE72900FC6E81 /* Alphabet ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA020811E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet ClockTests" */;
+			buildPhases = (
+				9BA020661E7BE72900FC6E81 /* Sources */,
+				9BA020671E7BE72900FC6E81 /* Frameworks */,
+				9BA020681E7BE72900FC6E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA0206C1E7BE72900FC6E81 /* PBXTargetDependency */,
+			);
+			name = "Alphabet ClockTests";
+			productName = "Alphabet ClockTests";
+			productReference = 9BA0206A1E7BE72900FC6E81 /* Alphabet ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA020741E7BE72900FC6E81 /* Alphabet ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA020841E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet ClockUITests" */;
+			buildPhases = (
+				9BA020711E7BE72900FC6E81 /* Sources */,
+				9BA020721E7BE72900FC6E81 /* Frameworks */,
+				9BA020731E7BE72900FC6E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA020771E7BE72900FC6E81 /* PBXTargetDependency */,
+			);
+			name = "Alphabet ClockUITests";
+			productName = "Alphabet ClockUITests";
+			productReference = 9BA020751E7BE72900FC6E81 /* Alphabet ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA0204B1E7BE72900FC6E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Balázs Víg";
+				TargetAttributes = {
+					9BA020521E7BE72900FC6E81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V66RH2C47A;
+						ProvisioningStyle = Automatic;
+					};
+					9BA020691E7BE72900FC6E81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V66RH2C47A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA020521E7BE72900FC6E81;
+					};
+					9BA020741E7BE72900FC6E81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V66RH2C47A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA020521E7BE72900FC6E81;
+					};
+				};
+			};
+			buildConfigurationList = 9BA0204E1E7BE72900FC6E81 /* Build configuration list for PBXProject "Alphabet Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA0204A1E7BE72900FC6E81;
+			productRefGroup = 9BA020541E7BE72900FC6E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA020521E7BE72900FC6E81 /* Alphabet Clock */,
+				9BA020691E7BE72900FC6E81 /* Alphabet ClockTests */,
+				9BA020741E7BE72900FC6E81 /* Alphabet ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA020511E7BE72900FC6E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA020641E7BE72900FC6E81 /* LaunchScreen.storyboard in Resources */,
+				9BA020611E7BE72900FC6E81 /* Assets.xcassets in Resources */,
+				9BA0205C1E7BE72900FC6E81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA020681E7BE72900FC6E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA020731E7BE72900FC6E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA0204F1E7BE72900FC6E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA020591E7BE72900FC6E81 /* ViewController.swift in Sources */,
+				9BA020571E7BE72900FC6E81 /* AppDelegate.swift in Sources */,
+				9BA0205F1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA020661E7BE72900FC6E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA0206F1E7BE72900FC6E81 /* Alphabet_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA020711E7BE72900FC6E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA0207A1E7BE72900FC6E81 /* Alphabet_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA0206C1E7BE72900FC6E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA020521E7BE72900FC6E81 /* Alphabet Clock */;
+			targetProxy = 9BA0206B1E7BE72900FC6E81 /* PBXContainerItemProxy */;
+		};
+		9BA020771E7BE72900FC6E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA020521E7BE72900FC6E81 /* Alphabet Clock */;
+			targetProxy = 9BA020761E7BE72900FC6E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BA0205A1E7BE72900FC6E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA0205B1E7BE72900FC6E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA020621E7BE72900FC6E81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA020631E7BE72900FC6E81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA0207C1E7BE72900FC6E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA0207D1E7BE72900FC6E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA0207F1E7BE72900FC6E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V66RH2C47A;
+				INFOPLIST_FILE = "Alphabet Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vigbalazs.Alphabet-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9BA020801E7BE72900FC6E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V66RH2C47A;
+				INFOPLIST_FILE = "Alphabet Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vigbalazs.Alphabet-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9BA020821E7BE72900FC6E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V66RH2C47A;
+				INFOPLIST_FILE = "Alphabet ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vigbalazs.Alphabet-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alphabet Clock.app/Alphabet Clock";
+			};
+			name = Debug;
+		};
+		9BA020831E7BE72900FC6E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V66RH2C47A;
+				INFOPLIST_FILE = "Alphabet ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vigbalazs.Alphabet-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alphabet Clock.app/Alphabet Clock";
+			};
+			name = Release;
+		};
+		9BA020851E7BE72900FC6E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V66RH2C47A;
+				INFOPLIST_FILE = "Alphabet ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vigbalazs.Alphabet-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alphabet Clock";
+			};
+			name = Debug;
+		};
+		9BA020861E7BE72900FC6E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V66RH2C47A;
+				INFOPLIST_FILE = "Alphabet ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vigbalazs.Alphabet-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alphabet Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA0204E1E7BE72900FC6E81 /* Build configuration list for PBXProject "Alphabet Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA0207C1E7BE72900FC6E81 /* Debug */,
+				9BA0207D1E7BE72900FC6E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA0207E1E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA0207F1E7BE72900FC6E81 /* Debug */,
+				9BA020801E7BE72900FC6E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA020811E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA020821E7BE72900FC6E81 /* Debug */,
+				9BA020831E7BE72900FC6E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA020841E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA020851E7BE72900FC6E81 /* Debug */,
+				9BA020861E7BE72900FC6E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BA0205D1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BA0205E1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodel */,
+			);
+			currentVersion = 9BA0205E1E7BE72900FC6E81 /* Alphabet_Clock.xcdatamodel */;
+			path = Alphabet_Clock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BA0204B1E7BE72900FC6E81 /* Project object */;
+}
