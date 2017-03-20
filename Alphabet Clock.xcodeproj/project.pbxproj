@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B538D1B1E7F137A00AD66B4 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B538D191E7F137A00AD66B4 /* Main2.storyboard */; };
 		9BA020571E7BE72900FC6E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA020561E7BE72900FC6E81 /* AppDelegate.swift */; };
 		9BA020591E7BE72900FC6E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA020581E7BE72900FC6E81 /* ViewController.swift */; };
 		9BA0205C1E7BE72900FC6E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA0205A1E7BE72900FC6E81 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B538D1A1E7F137A00AD66B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
 		9BA020531E7BE72900FC6E81 /* Alphabet Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alphabet Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA020561E7BE72900FC6E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BA020581E7BE72900FC6E81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				9BA020561E7BE72900FC6E81 /* AppDelegate.swift */,
 				9BA020581E7BE72900FC6E81 /* ViewController.swift */,
 				9BA0205A1E7BE72900FC6E81 /* Main.storyboard */,
+				9B538D191E7F137A00AD66B4 /* Main2.storyboard */,
 				9BA020601E7BE72900FC6E81 /* Assets.xcassets */,
 				9BA020621E7BE72900FC6E81 /* LaunchScreen.storyboard */,
 				9BA020651E7BE72900FC6E81 /* Info.plist */,
@@ -240,6 +243,7 @@
 			files = (
 				9BA020641E7BE72900FC6E81 /* LaunchScreen.storyboard in Resources */,
 				9BA020611E7BE72900FC6E81 /* Assets.xcassets in Resources */,
+				9B538D1B1E7F137A00AD66B4 /* Main2.storyboard in Resources */,
 				9BA0205C1E7BE72900FC6E81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9B538D191E7F137A00AD66B4 /* Main2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B538D1A1E7F137A00AD66B4 /* Base */,
+			);
+			name = Main2.storyboard;
+			sourceTree = "<group>";
+		};
 		9BA0205A1E7BE72900FC6E81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -518,6 +530,7 @@
 				9BA020801E7BE72900FC6E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BA020811E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet ClockTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				9BA020831E7BE72900FC6E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BA020841E7BE72900FC6E81 /* Build configuration list for PBXNativeTarget "Alphabet ClockUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				9BA020861E7BE72900FC6E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
